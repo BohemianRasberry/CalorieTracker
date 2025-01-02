@@ -7,7 +7,7 @@
   top: 0;
   width: 100%; /* Ensure toolbar spans the entire width */
   z-index: 1000;
-  background-color: #1976d2; /* Adjust the background color as needed */
+  background-color: #8EB486; /* Adjust the background color as needed */
 }
 
 /* Styling for the clickable app title */
@@ -24,17 +24,20 @@
 
 /* Styling for the toolbar buttons */
 .boton {
-  background: #fff;
+  background: transparent;
+  border-color: transparent;
   margin-left: 8px; 
   margin-right: 8px; 
   margin-top: 5px;
+  font-size: .8em;
+
 }
 
 /* Wrapper div to handle button alignment */
 .toolbar-buttons {
   display: flex;
   justify-content: flex-end; /* Align buttons to the right */
-  gap: 5px; /* Space between buttons */
+  gap: 0px; /* Space between buttons */
   position: absolute;
   right: 16px; /* Align to the right edge with some padding */
 }

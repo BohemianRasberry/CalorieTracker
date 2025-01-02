@@ -154,9 +154,9 @@ addMeal() : void {
       label: 'Quantity in g',
       data: [this.totP,this.totC, this.totF],
       backgroundColor: [
-        'green',
-        'purple',
-        'orange',		
+        '#D4AF37',
+        '#D35400',
+        '#6667AB',		
       ],
       hoverOffset: 4
     }],

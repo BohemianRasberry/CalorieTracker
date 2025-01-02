@@ -2,12 +2,11 @@
     display: flex;
     justify-content: center;
     align-items: center; /* Center items vertically */
-    min-height: 100vh;
-    max-height: fit-content;
+    min-height: 128vh;
   }
   
   .form-wrapper {
-    background-color: #f0f0f0;
+    background-color: #E6F2E6;
     border-radius: 5px;
     padding: 30px;
     width: 45%;
@@ -69,4 +68,9 @@
     left: 50%;
     transform: translate(-50%, -50%);
     /* Add your spinner styles here */
+  }
+
+  .btn {
+    background-color: #685752;
+    border-color: transparent
   }

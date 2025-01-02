@@ -19,12 +19,13 @@
     font-weight: bold; /* Make the text bold */
       text-align: left; /* Align the text to the center */
       padding-top: 10px; /* Provide padding top */
+      color: #575656;
     
   }
   .nwt{
     font-weight: bold; /* Make the text bold */
     font-size: x-large;
-    color: #0d6efd;
+    color: #685752;
       text-align: left; /* Align the text to the center */
       padding-top: 10px; /* Provide padding top */
     
@@ -59,17 +60,17 @@
  }
 
  .custom-text-bg-success{
-  background-color: green; /* Blue */
+  background-color: #D4AF37; /* Blue */
     color: #fff; /* White text */
  }
 
  .custom-text-bg-info{
-  background-color: orange; /* Blue */
+  background-color: #6667AB; /* Blue */
     color: #fff; /* White text */
  }
 
  .custom-text-bg-warning{
-  background-color: purple; /* Blue */
+  background-color: #D35400; /* Blue */
     color: #fff; /* White text */
  }
 
@@ -99,7 +100,7 @@
 }
 
 .card-header {
-  background-color: #f0f0f0;
+  background-color: #E6F2E6;
   border-bottom: 1px solid #ddd;
   text-align: center;
 }
@@ -156,4 +157,8 @@
   100% {
     box-shadow: 0 0 20px rgba(220, 53, 69, 1); /* Stronger red glow */
   }
+}
+
+.btn {
+  background-color: #685752;
 }
